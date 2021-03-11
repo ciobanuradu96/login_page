@@ -22,7 +22,7 @@ def signup():
 
         if len(password) <= 8:
             flash(
-                'password is to short, password must be greater the 8 charcthers', category='error')
+                "password is to short, password must be greater the 8 charcthers", category='error')
         else:
             flash('Account created!', category='success')
 
